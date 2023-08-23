@@ -1,0 +1,15 @@
+p{ /*여긴 무슨용도인거임???*/
+    margin-top : 100px;
+    margin-bottom : 100px;
+} 
+
+body{
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: #181818;
+    color: white;
+
+}

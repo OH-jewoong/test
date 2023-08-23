@@ -1,0 +1,72 @@
+.movie-box{ 
+    top: 100px;
+    left: 100px;
+    right: 0;
+    position: fixed;
+}
+
+.movie-box-under{ 
+    position: fixed;
+    top: 1300px;
+    left: 100px;
+    right: 0;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row; /*헤더부분을 메인 축 따라서 왼->오 로 정렬하기 위해*/
+    justify-content: space-between; /*좌-중-우 위치로 아이콘들을 고정해주기 위해서*/
+
+    position: absolute; /*섹션 위에 고정 시키기 위해서*/
+    top: 250px;
+    left: 50px;
+    right: 0;
+}
+
+.selection-under{
+    display: flex;
+    flex-direction: row; /*헤더부분을 메인 축 따라서 왼->오 로 정렬하기 위해*/
+    justify-content: space-between; /*좌-중-우 위치로 아이콘들을 고정해주기 위해서*/
+
+    position: absolute; /*섹션 위에 고정 시키기 위해서*/
+    top: 250px;
+    left: 50px;
+    right: 0;
+}
+
+.Original{
+    font-family: Roboto, Arial;
+    margin: 10px;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: #181818;
+    color: white;
+    font-size: 100px;
+    position: fixed; /*섹션 위에 고정 시키기 위해서*/
+}
+
+ 
+.movie-poster{
+    
+    column-gap: 160px;
+    row-gap: 400px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+    position: relative;
+    transition-duration: 1s;
+    transform: scale(1.0);
+}
+
+.movie-poster:hover{
+    transform: scale(1.25);
+    z-index: 10;
+}
+
+.poster{
+    object-fit: cover;
+    width : 500px;
+    height : 700px;
+    border: 10px solid #d31010;
+}
